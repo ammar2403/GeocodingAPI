@@ -1,0 +1,49 @@
+{
+  "Geocoding": {
+    "results": [{
+        "id": "0",
+        "status": "OK"
+      },
+
+      {
+        "id": "1",
+        "status": "ZERO_RESULTS"
+      },
+
+      {
+        "id": "2",
+        "status": "REQUEST_DENIED",
+        "error": "The provided API key is invalid."
+      },
+
+      {
+        "id": "3",
+        "status": "INVALID_REQUEST",
+        "error": "Invalid request. Missing the 'address', 'bounds', 'components', 'latlng' or 'place_id' parameter.",
+        "error1": "Invalid request. Invalid 'latlng' parameter."
+      },
+
+      {
+        "id": "4",
+        "status": "OVER_QUERY_LIMIT"
+      },
+
+      {
+        "id": "5",
+        "status": "UNKNOWN_ERROR"
+      }
+    ],
+    "dataInfo": [{
+        "address": "Nerkeza Smailagića",
+        "lat": "43.8432069",
+        "lng": "18.3446949"
+      },
+
+      {
+        "address": "Udorskiy rayon",
+        "lat": "63.8121388",
+        "lng": "48.5211785"
+      }
+    ]
+  }
+}

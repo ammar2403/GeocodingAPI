@@ -1,0 +1,465 @@
+[2017-09-18 05:50:57.484] [INFO] protractorLog4js - [TEST-1] Make an API call with valid parameters (address, API key), verify geographic coordinates (latitude and longitude) and status (Status: OK)
+[2017-09-18 05:50:57.838] [INFO] protractorLog4js - API succesfully called, status present and displayed properly
+[2017-09-18 05:50:57.839] [INFO] protractorLog4js - API succesfully called, address present and displayed properly
+[2017-09-18 05:50:57.839] [INFO] protractorLog4js - API succesfully called, latitude present and displayed properly
+[2017-09-18 05:50:57.839] [INFO] protractorLog4js - API succesfully called, longitude present and displayed properly
+[2017-09-18 05:50:57.840] [INFO] protractorLog4js - JSON file:
+{
+	"results": [
+		{
+			"address_components": [
+				{
+					"long_name": "Nerkeza Smailagića",
+					"short_name": "Nerkeza Smailagića",
+					"types": [
+						"route"
+					]
+				},
+				{
+					"long_name": "Novi Grad Sarajevo",
+					"short_name": "Novi Grad Sarajevo",
+					"types": [
+						"political",
+						"sublocality",
+						"sublocality_level_1"
+					]
+				},
+				{
+					"long_name": "Sarajevo",
+					"short_name": "Sarajevo",
+					"types": [
+						"locality",
+						"political"
+					]
+				},
+				{
+					"long_name": "Kanton Sarajevo",
+					"short_name": "Kanton Sarajevo",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					]
+				},
+				{
+					"long_name": "Federacija Bosne i Hercegovine",
+					"short_name": "Federacija Bosne i Hercegovine",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Bosnia and Herzegovina",
+					"short_name": "BA",
+					"types": [
+						"country",
+						"political"
+					]
+				},
+				{
+					"long_name": "71000",
+					"short_name": "71000",
+					"types": [
+						"postal_code"
+					]
+				}
+			],
+			"formatted_address": "Nerkeza Smailagića, Sarajevo 71000, Bosnia and Herzegovina",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 43.8437196,
+						"lng": 18.3476681
+					},
+					"southwest": {
+						"lat": 43.8414235,
+						"lng": 18.3419456
+					}
+				},
+				"location": {
+					"lat": 43.8432069,
+					"lng": 18.3446949
+				},
+				"location_type": "GEOMETRIC_CENTER",
+				"viewport": {
+					"northeast": {
+						"lat": 43.8439205302915,
+						"lng": 18.3476681
+					},
+					"southwest": {
+						"lat": 43.8412225697085,
+						"lng": 18.3419456
+					}
+				}
+			},
+			"partial_match": true,
+			"place_id": "ChIJTQZDI4DJWEcR4cx7Jhv45bQ",
+			"types": [
+				"route"
+			]
+		}
+	],
+	"status": "OK"
+}
+[2017-09-18 05:50:58.512] [INFO] protractorLog4js - Testing API through browser passed
+[2017-09-18 05:51:01.537] [INFO] protractorLog4js - [TEST-2] Make an API call with valid parameters (longitude, latitude), verify street address and status (Status: OK)
+[2017-09-18 05:51:01.734] [INFO] protractorLog4js - API succesfully called, status present and displayed properly
+[2017-09-18 05:51:01.736] [INFO] protractorLog4js - API succesfully called, address present and displayed properly
+[2017-09-18 05:51:01.738] [INFO] protractorLog4js - API succesfully called, latitude present and displayed properly
+[2017-09-18 05:51:01.739] [INFO] protractorLog4js - API succesfully called, longitude present and displayed properly
+[2017-09-18 05:51:01.739] [INFO] protractorLog4js - JSON file:
+{
+	"results": [
+		{
+			"address_components": [
+				{
+					"long_name": "Unnamed Road",
+					"short_name": "Unnamed Road",
+					"types": [
+						"route"
+					]
+				},
+				{
+					"long_name": "Udorskiy rayon",
+					"short_name": "Udorskiy r-n",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					]
+				},
+				{
+					"long_name": "Komi Republits",
+					"short_name": "Komi Republits",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Russia",
+					"short_name": "RU",
+					"types": [
+						"country",
+						"political"
+					]
+				}
+			],
+			"formatted_address": "Unnamed Road, Komi Republits, Russia",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 63.83184959999999,
+						"lng": 48.5731826
+					},
+					"southwest": {
+						"lat": 63.8058267,
+						"lng": 48.4867654
+					}
+				},
+				"location": {
+					"lat": 63.8121388,
+					"lng": 48.5211785
+				},
+				"location_type": "GEOMETRIC_CENTER",
+				"viewport": {
+					"northeast": {
+						"lat": 63.83184959999999,
+						"lng": 48.5731826
+					},
+					"southwest": {
+						"lat": 63.8058267,
+						"lng": 48.4867654
+					}
+				}
+			},
+			"place_id": "ChIJq6B_3w_WDUQRmsr-Iv1GwkY",
+			"types": [
+				"route"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "169261",
+					"short_name": "169261",
+					"types": [
+						"postal_code"
+					]
+				},
+				{
+					"long_name": "Udorsky District",
+					"short_name": "Udorsky District",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					]
+				},
+				{
+					"long_name": "Komi Republic",
+					"short_name": "Komi Republic",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Russia",
+					"short_name": "RU",
+					"types": [
+						"country",
+						"political"
+					]
+				}
+			],
+			"formatted_address": "Komi Republic, Russia, 169261",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 64.208978,
+						"lng": 48.735321
+					},
+					"southwest": {
+						"lat": 63.5097251,
+						"lng": 48.08290909999999
+					}
+				},
+				"location": {
+					"lat": 63.8072869,
+					"lng": 48.3727551
+				},
+				"location_type": "APPROXIMATE",
+				"viewport": {
+					"northeast": {
+						"lat": 64.208978,
+						"lng": 48.735321
+					},
+					"southwest": {
+						"lat": 63.5097251,
+						"lng": 48.08290909999999
+					}
+				}
+			},
+			"place_id": "ChIJz59BruPXDUQR7imWg6yioD0",
+			"types": [
+				"postal_code"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "Udorsky District",
+					"short_name": "Udorsky District",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					]
+				},
+				{
+					"long_name": "Komi Republic",
+					"short_name": "Komi Republic",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Russia",
+					"short_name": "RU",
+					"types": [
+						"country",
+						"political"
+					]
+				}
+			],
+			"formatted_address": "Udorsky District, Komi Republic, Russia",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 64.7935358,
+						"lng": 51.0556519
+					},
+					"southwest": {
+						"lat": 62.180919,
+						"lng": 45.4046569
+					}
+				},
+				"location": {
+					"lat": 63.4951205,
+					"lng": 48.64206249999999
+				},
+				"location_type": "APPROXIMATE",
+				"viewport": {
+					"northeast": {
+						"lat": 64.7935358,
+						"lng": 51.0556519
+					},
+					"southwest": {
+						"lat": 62.180919,
+						"lng": 45.4046569
+					}
+				}
+			},
+			"place_id": "ChIJu5LtiHaLDkQRxpczW6Vb5NI",
+			"types": [
+				"administrative_area_level_2",
+				"political"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "Komi Republic",
+					"short_name": "Komi Republic",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Russia",
+					"short_name": "RU",
+					"types": [
+						"country",
+						"political"
+					]
+				}
+			],
+			"formatted_address": "Komi Republic, Russia",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 68.42287689999999,
+						"lng": 66.2523212
+					},
+					"southwest": {
+						"lat": 59.196101,
+						"lng": 45.4046569
+					}
+				},
+				"location": {
+					"lat": 63.8630539,
+					"lng": 54.831269
+				},
+				"location_type": "APPROXIMATE",
+				"viewport": {
+					"northeast": {
+						"lat": 68.42287689999999,
+						"lng": 66.2523212
+					},
+					"southwest": {
+						"lat": 59.196101,
+						"lng": 45.4046569
+					}
+				}
+			},
+			"place_id": "ChIJS64Xnc24dUQRwJTxg6WjAgE",
+			"types": [
+				"administrative_area_level_1",
+				"political"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "Russia",
+					"short_name": "RU",
+					"types": [
+						"country",
+						"political"
+					]
+				}
+			],
+			"formatted_address": "Russia",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 82.1673907,
+						"lng": -168.97788
+					},
+					"southwest": {
+						"lat": 41.185353,
+						"lng": 19.6160999
+					}
+				},
+				"location": {
+					"lat": 61.52401,
+					"lng": 105.318756
+				},
+				"location_type": "APPROXIMATE",
+				"viewport": {
+					"northeast": {
+						"lat": 70,
+						"lng": 179
+					},
+					"southwest": {
+						"lat": 40,
+						"lng": 27
+					}
+				}
+			},
+			"place_id": "ChIJ-yRniZpWPEURE_YRZvj9CRQ",
+			"types": [
+				"country",
+				"political"
+			]
+		}
+	],
+	"status": "OK"
+}
+[2017-09-18 05:51:01.807] [INFO] protractorLog4js - Testing API through browser passed
+[2017-09-18 05:51:04.821] [INFO] protractorLog4js - [TEST-3] Make an API call with invalid parameters (address- invalid, API key), verify status (Status: ZERO_RESULTS)
+[2017-09-18 05:51:05.311] [INFO] protractorLog4js - API succesfully called, status present and displayed properly
+[2017-09-18 05:51:05.314] [INFO] protractorLog4js - JSON file:
+{
+	"results": [],
+	"status": "ZERO_RESULTS"
+}
+[2017-09-18 05:51:05.381] [INFO] protractorLog4js - Testing API through browser passed
+[2017-09-18 05:51:08.401] [INFO] protractorLog4js - [TEST-4] Make an API call with missing parameters (address-missing, API key), verify error message and status (Status: INVALID_REQUEST)
+[2017-09-18 05:51:08.545] [INFO] protractorLog4js - Testing API through browser passed
+[2017-09-18 05:51:08.570] [INFO] protractorLog4js - API succesfully called, status present and displayed properly
+[2017-09-18 05:51:08.570] [INFO] protractorLog4js - API succesfully called, error message present and displayed properly
+[2017-09-18 05:51:08.570] [INFO] protractorLog4js - JSON file:
+{
+	"error_message": "Invalid request. Missing the 'address', 'bounds', 'components', 'latlng' or 'place_id' parameter.",
+	"results": [],
+	"status": "INVALID_REQUEST"
+}
+[2017-09-18 05:51:11.562] [INFO] protractorLog4js - [TEST-5] Make an API call with invalid parameters (address, API key- invalid), verify error message and status (Status: REQUEST_DENIED)
+[2017-09-18 05:51:11.698] [INFO] protractorLog4js - Testing API through browser passed
+[2017-09-18 05:51:11.707] [INFO] protractorLog4js - API succesfully called, status present and displayed properly
+[2017-09-18 05:51:11.707] [INFO] protractorLog4js - API succesfully called, error message present and displayed properly
+[2017-09-18 05:51:11.707] [INFO] protractorLog4js - JSON file:
+{
+	"error_message": "The provided API key is invalid.",
+	"results": [],
+	"status": "REQUEST_DENIED"
+}
+[2017-09-18 05:51:14.707] [INFO] protractorLog4js - [TEST-6] Make an API call with invalid parameters (longitude-invalid, latitude-invalid, API key), verify error message and status (Status: ZERO_RESULTS)
+[2017-09-18 05:51:14.856] [INFO] protractorLog4js - API succesfully called, status present and displayed properly
+[2017-09-18 05:51:14.859] [INFO] protractorLog4js - JSON file:
+{
+	"results": [],
+	"status": "ZERO_RESULTS"
+}
+[2017-09-18 05:51:14.862] [INFO] protractorLog4js - Testing API through browser passed
+[2017-09-18 05:51:17.880] [INFO] protractorLog4js - [TEST-7] Make an API call with missing parameters (longitude-missing, latitude, API key), verify error message and status (Status: INVALID_REQUESTS)
+[2017-09-18 05:51:18.019] [INFO] protractorLog4js - Testing API through browser passed
+[2017-09-18 05:51:18.046] [INFO] protractorLog4js - API succesfully called, status present and displayed properly
+[2017-09-18 05:51:18.046] [INFO] protractorLog4js - API succesfully called, error message present and displayed properly
+[2017-09-18 05:51:18.046] [INFO] protractorLog4js - JSON file:
+{
+	"error_message": "Invalid request. Invalid 'latlng' parameter.",
+	"results": [],
+	"status": "INVALID_REQUEST"
+}
+[2017-09-18 05:51:21.037] [INFO] protractorLog4js - [TEST-8] Make an API call with invalid parameters (longitude, latitude, API key - invalid), verify error message and status (Status: REQUEST_DENIED)
+[2017-09-18 05:51:21.179] [INFO] protractorLog4js - Testing API through browser passed
+[2017-09-18 05:51:21.202] [INFO] protractorLog4js - API succesfully called, status present and displayed properly
+[2017-09-18 05:51:21.203] [INFO] protractorLog4js - API succesfully called, error message present and displayed properly
+[2017-09-18 05:51:21.204] [INFO] protractorLog4js - JSON file:
+{
+	"error_message": "The provided API key is invalid.",
+	"results": [],
+	"status": "REQUEST_DENIED"
+}
