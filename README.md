@@ -16,8 +16,6 @@ Negative tests are labeled with # - 3,4,5,6....
 Getting Started
 ---------------
 - Tests are written in javascript using protractor framework and selenium.
--See the [Protractor Website](http://www.protractortest.org) for most documentation.
-
 
 Required installations
 ---------------
